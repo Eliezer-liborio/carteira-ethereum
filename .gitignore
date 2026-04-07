@@ -1,0 +1,27 @@
+# ─── Variáveis de ambiente e segredos ────────────────────────────────────────
+.env
+*.key
+*.pem
+*.cap
+
+# ─── Bancos de dados SQLite ───────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ─── Cache e bytecode Python ─────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ─── Ambientes virtuais ───────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ─── Ferramentas de desenvolvimento ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
